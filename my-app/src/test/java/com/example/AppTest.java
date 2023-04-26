@@ -58,6 +58,16 @@ class AppTest {
     }
 
     @Test
+    @DisplayName("Test for words with more consonants or equal number of vowels and consonants")
+    void testWordsWithMoreConsonantsOrEqual() throws IOException {
+        String testContents = "Strength tree";
+        LinkedHashSet<String> expected = new LinkedHashSet<>();
+
+        LinkedHashSet<String> actual = App.getWordsWithMoreVowels(testContents);
+        assertThat(actual, is(expected));
+    }
+
+    @Test
     @DisplayName("Test for file not found")
     void testFileNotFound() {
         assertThrows(IOException.class, () -> {
