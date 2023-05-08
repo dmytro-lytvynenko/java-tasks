@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-08T16:15:32 EEST" name="AllTests" finished-at="2023-05-08T16:15:32 EEST" duration-ms="278">
+    <groups>
+      <group name="vowels">
+        <method signature="AppTest.testCountingVowels()[pri:0, instance:com.example.AppTest@17c1bced]" name="testCountingVowels" class="com.example.AppTest"/>
+        <method signature="AppTest.testEmptyInput()[pri:0, instance:com.example.AppTest@17c1bced]" name="testEmptyInput" class="com.example.AppTest"/>
+        <method signature="AppTest.testFileRead()[pri:0, instance:com.example.AppTest@17c1bced]" name="testFileRead" class="com.example.AppTest"/>
+        <method signature="AppTest.testHamcrestMatchers()[pri:0, instance:com.example.AppTest@17c1bced]" name="testHamcrestMatchers" class="com.example.AppTest"/>
+        <method signature="AppTest.testWordsWithMoreConsonantsOrEqual()[pri:0, instance:com.example.AppTest@17c1bced]" name="testWordsWithMoreConsonantsOrEqual" class="com.example.AppTest"/>
+      </group> <!-- vowels -->
+      <group name="parameterized">
+        <method signature="AppTest.testParameterizedInput(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.example.AppTest@17c1bced]" name="testParameterizedInput" class="com.example.AppTest"/>
+      </group> <!-- parameterized -->
+      <group name="exceptions">
+        <method signature="AppTest.testCountingVowelsException()[pri:0, instance:com.example.AppTest@17c1bced]" name="testCountingVowelsException" class="com.example.AppTest"/>
+        <method signature="AppTest.testFileNotFound()[pri:0, instance:com.example.AppTest@17c1bced]" name="testFileNotFound" class="com.example.AppTest"/>
+      </group> <!-- exceptions -->
+    </groups>
+    <test started-at="2023-05-08T16:15:32 EEST" name="TestNGTests" finished-at="2023-05-08T16:15:32 EEST" duration-ms="278">
+      <class name="com.example.AppTest">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setupAll" finished-at="2023-05-08T16:15:32 EEST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAll -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCountingVowels()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testCountingVowels" finished-at="2023-05-08T16:15:32 EEST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountingVowels -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCountingVowelsException()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testCountingVowelsException" finished-at="2023-05-08T16:15:32 EEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountingVowelsException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEmptyInput()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testEmptyInput" finished-at="2023-05-08T16:15:32 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyInput -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFileNotFound()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testFileNotFound" finished-at="2023-05-08T16:15:32 EEST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileNotFound -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFileRead()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testFileRead" finished-at="2023-05-08T16:15:32 EEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileRead -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHamcrestMatchers()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testHamcrestMatchers" finished-at="2023-05-08T16:15:32 EEST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHamcrestMatchers -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterizedInput(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testParameterizedInput" data-provider="inputDataProvider" finished-at="2023-05-08T16:15:32 EEST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aeonian eon of an input string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aeonian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterizedInput -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterizedInput(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testParameterizedInput" data-provider="inputDataProvider" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aeonian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aeonian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterizedInput -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterizedInput(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testParameterizedInput" data-provider="inputDataProvider" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aeonian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterizedInput -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="setup" finished-at="2023-05-08T16:15:32 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testWordsWithMoreConsonantsOrEqual()[pri:0, instance:com.example.AppTest@17c1bced]" started-at="2023-05-08T16:15:32 EEST" name="testWordsWithMoreConsonantsOrEqual" finished-at="2023-05-08T16:15:32 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordsWithMoreConsonantsOrEqual -->
+      </class> <!-- com.example.AppTest -->
+    </test> <!-- TestNGTests -->
+  </suite> <!-- AllTests -->
+</testng-results>

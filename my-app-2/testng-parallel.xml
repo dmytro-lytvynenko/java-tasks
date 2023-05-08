@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="classes" thread-count="2">
+    <test name="VowelsAndExceptions">
+        <groups>
+            <run>
+                <include name="vowels"/>
+                <include name="exceptions"/>
+                <exclude name="parameterized"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.TestNGAppTest"/>
+        </classes>
+    </test>
+</suite>
