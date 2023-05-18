@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sequential Test Suite" parallel="false">
+    <test name="AllTests">
+        <groups>
+            <define name="allTests">
+                <include name="vowels"/>
+                <include name="exceptions"/>
+                <include name="parameterized"/>
+            </define>
+        </groups>
+        <classes>
+            <class name="com.example.TestNGAppTest"/>
+        </classes>
+    </test>
+
+</suite>
